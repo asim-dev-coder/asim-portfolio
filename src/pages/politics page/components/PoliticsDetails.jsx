@@ -45,11 +45,40 @@ function PoliticsDetails() {
               <h2 className="text-2xl/9 font-medium">{courses.title}</h2>
               <p className="text-gray-600 mt-2">{courses.instructor} | {courses.correspondent}</p>
               <p className="text-gray-500 text-sm mt-1">{courses.dateplace}</p>
+              <div className='sm:mt-2 block lg:hidden xl:hidden'>
+              <div className="w-[340px] bg-gradient-to-r from-indigo-100 via-gray-50 to-zinc-100 shadow-md rounded-lg overflow-hidden">
+                <img
+                  src={courses.image}
+                  alt="politics"
+                  className="w-full h-40 object-cover"
+                />
+                <div className="p-4">
+                  {/* <h3 className="text-2xl font-bold">${courses.price.current}</h3> */}
+                  <div className='flex items-center justify-between'>
+                    <div className='flex items-center gap-2'><CiSquarePlus className='text-sky-400' size={25} />
+                      <p className="text-gray-600 font-semibold"> {courses.level}</p></div>
+                    <div className='flex items-center gap-2'><WiTime3 className='text-sky-500' size={25} />
+                      <p className="text-gray-600 font-semibold"> {courses.duration}</p></div>
+                  </div>
+                  <div className='my-3 flex items-center justify-between'>
+                  <button className="w-[115px]  bg-rose-300 text-black py-2 rounded-lg hover:bg-rose-400 cursor-pointer font-semibold">
+                    শেয়ার করুন
+                  </button>
+                  <FaXTwitter size={38} className='text-black py-2 hover:text-rose-500 cursor-pointer' />
+                  <FaFacebookF className='text-blue-500 py-2 hover:text-rose-500 cursor-pointer' size={41} />
+                  <RiWhatsappFill className='text-green-500 py-2 hover:text-rose-500 cursor-pointer' size={41} />
+                  </div>
+                  <button className="w-full bg-gray-300 text-gray-700 py-2 rounded-lg hover:bg-rose-300 cursor-pointer font-semibold">
+                    মন্তব্য যোগ করুন
+                  </button>
+                </div>
+              </div>
+            </div>
               <div className="bg-white shadow-md rounded-lg p-6 mt-6">
                 <p className="text-gray-900 mt-2">{courses.description}</p>
               </div>
             </div>
-            <div>
+            <div className='hidden lg:block xl:block'>
               <div className="w-[340px] bg-gradient-to-r from-indigo-100 via-gray-50 to-zinc-100 shadow-md rounded-lg overflow-hidden">
                 <img
                   src={courses.image}

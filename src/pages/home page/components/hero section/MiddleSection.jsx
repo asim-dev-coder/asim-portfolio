@@ -20,7 +20,7 @@ function MiddleSection({ categorieName }) {
             <div className=' scroll-auto' key={index}>
               <div className='mb-2'><img className='rounded-xl' src={course.image} alt={course.title} /></div><div>
                 <h1 className='text-base/6 font-semibold'>{course.title}</h1>
-                <div className='flex items-center gap-3 mt-2'>
+                <div className='lg:flex lg:items-center xl:flex xl:items-center gap-3 mt-2'>
                 <div className='flex items-center gap-1'>
                   <WiTime3 className='text-sky-400' size={25} />
                   <h5 className='text-sm text-gray-500 my-3'>{course.duration}</h5>
