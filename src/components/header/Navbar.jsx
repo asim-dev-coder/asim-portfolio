@@ -79,12 +79,12 @@ function Navbar() {
           </Link>
           <Link to="/login">
             <button className="text-lg font-semibold text-transparent bg-clip-text bg-gradient-to-r from-black to-black hover:from-red-400 hover:to-rose-600 hidden sm:block lg:block">
-              Log in
+            লগ ইন
             </button>
           </Link>
           <Link to="/signup">
             <button className="btn text-lg font-semibold rounded-lg border-none bg-[#ee4023] hover:bg-sky-500 text-white hidden sm:block lg:block">
-              Sign Up
+            সাইন আপ
             </button>
           </Link>
           <GiHamburgerMenu
