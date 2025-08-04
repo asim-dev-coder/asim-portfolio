@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "category": "Newspaper",
-    "title": "Newspaper",
+    "category": "Dashboard",
+    "title": "Dashboard",
     "type": "Course",
     "lessons": 25,
     "seat": "Technology Used :",
@@ -12,8 +12,8 @@
     "tags": [
       "Best Seller"
     ],
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzjRmxFLS7ZI-kApTEnXLdvRgdcWxFLx_2Uw&s",
-    "liveLink": "https://assim-newspaper.netlify.app/"
+    "image": "https://s.tmimgcdn.com/scr/1200x627/353800/arise-bootstrap-5-admin-dashboard_353820-original.png",
+    "liveLink": "https://asim-task.netlify.app/login"
   },
   {
     "id": 2,
@@ -33,19 +33,19 @@
   },
   {
     "id": 3,
-    "category": "Travel",
-    "title": "Travel",
+    "category": "Newspaper",
+    "title": "Newspaper",
     "type": "Course",
-    "lessons": 8,
+    "lessons": 25,
     "seat": "Technology Used :",
     "dateplace": "৫ - ৪ - ২০২৫, ঢাকা",
-    "duration": "৯ ঘন্টা আগে",
+    "duration": "৩০ মিনিট আগে",
     "level": "৪ বার দেখেছে",
     "tags": [
-      "Popular"
+      "Best Seller"
     ],
-    "image": "https://www.travelanddestinations.com/wp-content/uploads/2021/11/Maldives-islands-and-resorts.jpg",
-    "liveLink": "https://earnest-kleicha-e21245.netlify.app/"
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzjRmxFLS7ZI-kApTEnXLdvRgdcWxFLx_2Uw&s",
+    "liveLink": "https://assim-newspaper.netlify.app/"
   },
   {
     "id": 4,
