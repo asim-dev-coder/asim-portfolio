@@ -2,6 +2,7 @@
   {
     "id": 1,
     "category": "Dashboard",
+    "skill": "React",
     "title": "Dashboard",
     "type": "Course",
     "lessons": 25,
@@ -18,6 +19,7 @@
   {
     "id": 2,
     "category": "E-commerce",
+    "skill": "Tailwind CSS",
     "title": "E-commerce",
     "type": "Course",
     "lessons": 25,
@@ -34,6 +36,7 @@
   {
     "id": 3,
     "category": "Newspaper",
+    "skill": "HTML 5",
     "title": "Newspaper",
     "type": "Course",
     "lessons": 25,
@@ -50,6 +53,7 @@
   {
     "id": 4,
     "category": "LMS",
+    "skill": "Version Control",
     "title": "LMS",
     "type": "Course",
     "lessons": 25,

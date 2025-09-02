@@ -22,9 +22,9 @@ const ProjectsCard = ({ selectedCategory, increment, handleCartProduct }) => {
     <div className='w-9/12 mx-auto py-8'>
       <h1 className='text-4xl text-center font-bold my-3 text-[#023e8a]'>My Projects
       </h1>
-      <h1 className='text-2xl text-center font-medium my-5 text-[#023e8a]'>Here is some of my recent projects
+      <h1 className='text-[22px] lg:text-2xl lg:text-center font-medium my-5 text-[#023e8a]'>Here is some of my recent projects
       </h1>
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
         {filteredProducts.map((product) => (
           <div key={product.id} className="flex flex-col gap-5 border border-gray-200 rounded-2xl shadow-lg">
             <div className="w-full h-[274px] rounded-2xl overflow-hidden border-2 border-gray-200">

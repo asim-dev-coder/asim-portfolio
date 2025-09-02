@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "skill": "React",
+    "image": "https://cdn.iconscout.com/icon/free/png-256/free-react-icon-svg-png-download-226053.png?f=webp"
+  },
+  {
+    "id": 2,
+    "skill": "Tailwind CSS",
+    "image": "./Assim skill.png"
+  },
+  {
+    "id": 3,
+    "skill": "HTML 5",
+    "image": "https://cdn.iconscout.com/icon/free/png-512/free-html-logo-icon-svg-png-download-2944937.png?f=webp&w=512"
+  },
+  {
+    "id": 4,
+    "skill": "Version Control",
+    "image": "https://cdn.iconscout.com/icon/free/png-512/free-github-icon-svg-png-download-10898349.png?f=webp&w=512"
+  }
+]
