@@ -12,7 +12,7 @@ const Footer = () => {
       <div className='bg-sky-50'>
         <div className='w-9/12 mx-auto'>
           <div className='block xl:hidden lg:hidden'>
-            <div className='flex items-center justify-between'>
+            <div className='lg:flex lg:items-center lg:justify-between p-2'>
               <div className='flex gap-6 text-[20px] text-gray-700 items-start'>
                 < SlSocialLinkedin />
                 < FaInstagram className='transform translate-y-[2px]' />
