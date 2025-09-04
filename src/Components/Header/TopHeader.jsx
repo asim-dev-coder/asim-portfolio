@@ -11,7 +11,7 @@ const TopHeader = () => {
                 <div className=' flex items-center justify-between text-white'>
                     <div className='flex items-center gap-5 py-2 '>
                         <div className='flex gap-1 items-center  pr-4 '>
-                            <p className='text-red-500 block lg:hidden text-5xl font-roboto font-bold'>For a better view, please visit from desktop</p>
+                            <h1 className='text-red-500 block lg:hidden text-5xl font-roboto font-bold'>For a better view, please visit from desktop</h1>
                             <IoMdCall className='text-[20px] ' />
                             <p className='text-[15px]'><a href='https://web.whatsapp.com/' target="_blank">+8801556440078</a></p>
                         </div>
