@@ -7,7 +7,7 @@ import Footer from "../Components/Footer/Footer";
 const Root = () => {
   return (
     <div>
-      <div className="xs:hidden lg:block">
+      <div className="hidden lg:block">
         <TopHeader />
       </div>
       <div className="sticky top-0 z-10">
