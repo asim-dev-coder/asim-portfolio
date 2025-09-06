@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
+import { IoLogoWhatsapp } from "react-icons/io";
 import { FiMenu } from "react-icons/fi"; // Hamburger icon
 
 const Navbar = () => {
@@ -87,6 +88,8 @@ const Navbar = () => {
                 {label}
               </NavLink>
             ))}
+            <div className="flex items-center gap-2">
+            <IoLogoWhatsapp size={20} className="text-green-500" />01556440078</div>
           </div>
         )}
       </div>
