@@ -15,7 +15,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="bg-white border-b border-gray-200 font-poppins">
+    <div className="bg-white border-b border-gray-200 font-poppins shadow-lg">
       <div className="w-full lg:w-9/12 mx-auto py-4 px-4 lg:px-0 text-[16px]">
         {/* Top Bar */}
         <div className="flex justify-between items-center">
