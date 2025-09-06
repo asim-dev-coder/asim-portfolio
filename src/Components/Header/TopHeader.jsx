@@ -7,21 +7,18 @@ import { SlSocialLinkedin } from "react-icons/sl";
 const TopHeader = () => {
   return (
     <>
-      <style>
+      {/* <style>
         {`
                 h3{ color: red;}
                 `}
-      </style>
+      </style> */}
       <div className="bg-linear-to-r from-[#023e8a] via-[#48cae4] to-[#caf0f8] work">
         <div className="w-9/12 mx-auto ">
           <div className=" flex items-center justify-between text-white">
             <div className="flex items-center gap-5 py-2 ">
               <div className="flex gap-1 items-center  pr-4 ">
                 {/* style="color: red"*/}
-                <h3 className="block lg:hidden text-5xl font-roboto font-bold">
-                  For a better view, please visit from desktop
-                </h3>
-                <IoMdCall className="text-[20px] " />
+                                <IoMdCall className="text-[20px] " />
                 <p className="text-[15px]">
                   <a href="https://web.whatsapp.com/" target="_blank">
                     +8801556440078
