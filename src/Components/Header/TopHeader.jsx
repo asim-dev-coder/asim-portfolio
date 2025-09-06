@@ -18,7 +18,7 @@ const TopHeader = () => {
             <div className="flex items-center gap-5 py-2 ">
               <div className="flex gap-1 items-center  pr-4 ">
                 {/* style="color: red"*/}
-                                <IoMdCall className="text-[20px] " />
+                <IoMdCall className="text-[20px] " />
                 <p className="text-[15px]">
                   <a href="https://web.whatsapp.com/" target="_blank">
                     +8801556440078
