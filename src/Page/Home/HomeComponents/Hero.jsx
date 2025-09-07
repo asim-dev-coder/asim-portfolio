@@ -76,7 +76,7 @@ const Hero = () => {
               <span className="blinking-cursor">|</span>
             </h1>
             {/* Get Course Buttons */}
-            <div className="flex gap-4 flex-wrap">
+            <div className="flex gap-4 items-center">
               <div className="btn h-[50px] flex gap-2 text-2xl items-center hover:bg-white hover:text-[#023e8a] bg-[#023e8a] px-4 py-2 rounded-lg text-white font-semibold shadow-md">
                 <FaGithub className=" text-2xl font-semibold" />
                 Find Me
