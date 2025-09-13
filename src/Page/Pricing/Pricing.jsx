@@ -95,7 +95,7 @@ const Pricing = () => {
                         ></path>
                       </svg>
                     </span>
-                    <p class="text-slate-500">1 year free updates</p>
+                    <p class="text-slate-500 line-through">1 year free updates</p>
                   </li>
                   <li class="flex items-center gap-4">
                     <span class="p-1 border rounded-full border-slate-200 bg-slate-50">
@@ -114,7 +114,7 @@ const Pricing = () => {
                         ></path>
                       </svg>
                     </span>
-                    <p class="text-slate-500">Life time technical support</p>
+                    <p class="text-slate-500 line-through">Life time technical support</p>
                   </li>
                 </ul>
               </div>
@@ -234,7 +234,7 @@ const Pricing = () => {
                         ></path>
                       </svg>
                     </span>
-                    <p class="text-slate-600">Life time technical support</p>
+                    <p class="text-slate-600 line-through">Life time technical support</p>
                   </li>
                 </ul>
               </div>
