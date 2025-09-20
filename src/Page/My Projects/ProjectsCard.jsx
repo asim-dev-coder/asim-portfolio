@@ -26,8 +26,8 @@ const ProjectsCard = ({ selectedCategory, increment, handleCartProduct }) => {
       </h1>
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
         {filteredProducts.map((product) => (
-          <div key={product.id} className="flex flex-col gap-5 border border-gray-200 rounded-2xl shadow-lg">
-            <div className="w-full h-[274px] rounded-2xl overflow-hidden border-2 border-gray-200">
+          <div key={product.id} className="rounded-2xl shadow-lg border border-white hover:border-teal-300 hover:border-1">
+            <div className="w-full h-[274px] rounded-t-2xl overflow-hidden">
               <img className="object-cover w-full h-full duration-1000 ease-in-out hover:scale-110" src={product.image} alt={product.title} />
             </div>
             <div className="p-2">
