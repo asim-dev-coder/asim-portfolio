@@ -50,7 +50,7 @@ const Hero = () => {
                 }
                 `}
       </style>
-      <div className="mx-auto w-10/12 lg:w-9/12 xl:w-9/12">
+      <div className="mx-auto w-11/12 lg:w-9/12 xl:w-9/12">
         <div className="flex flex-col lg:flex-row-reverse justify-between items-center">
           <div class="relative mb-5 lg:none">
             <div class="absolute -inset-1 rounded-lg bg-gradient-to-l from-[#023e8a] via-[#48cae4] to-[#caf0f8] opacity-75 blur"></div>

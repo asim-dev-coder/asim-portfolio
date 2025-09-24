@@ -6,7 +6,7 @@ import Footer from "../Components/Footer/Footer";
 
 const Root = () => {
   return (
-    <div>
+    <>
       <div className="hidden lg:block">
         <TopHeader />
       </div>
@@ -15,7 +15,7 @@ const Root = () => {
       </div>
       <Outlet></Outlet>
       <Footer></Footer>
-    </div>
+    </>
   );
 };
 

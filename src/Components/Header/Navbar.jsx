@@ -17,7 +17,7 @@ const Navbar = () => {
 
   return (
     <div className="bg-white border-b border-gray-200 font-poppins shadow-lg">
-      <div className="w-full lg:w-9/12 mx-auto py-4 px-4 lg:px-0 text-[16px]">
+      <div className="w-11/12 lg:w-9/12 mx-auto py-2 text-[16px]">
         {/* Top Bar */}
         <div className="flex justify-between items-center">
           {/* Left (Logo + Hamburger for sm) */}
@@ -89,7 +89,9 @@ const Navbar = () => {
               </NavLink>
             ))}
             <div className="flex items-center gap-2">
-            <IoLogoWhatsapp size={20} className="text-green-500" />01556440078</div>
+              <IoLogoWhatsapp size={20} className="text-green-500" />
+              01556440078
+            </div>
           </div>
         )}
       </div>
