@@ -84,7 +84,7 @@ const Client = () => {
 
     return (
         <div className='bg-gradient-to-r from-purple-50 to-sky-50'>
-            <div className='w-9/12 mx-auto py-8 text-4xl text-[#023e8a]'>
+            <div className='w-11/12 lg:w-10/12 mx-auto py-8 text-4xl text-[#023e8a]'>
                 <h1 className='text-4xl text-center font-bold my-3 text-[#023e8a]'>Clients' Riview
                 </h1>
                 <h1 className='text-2xl text-center font-medium my-4 text-[#023e8a]'>What my clients say about me

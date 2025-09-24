@@ -3,7 +3,7 @@ import React from "react";
 const Pricing = () => {
   return (
     <>
-      <div className="w-10/12 mx-auto py-4">
+      <div className="w-11/12 lg:w-10/12 mx-auto py-4">
         <h1 className="text-4xl text-center font-bold mb-5 text-[#023e8a]">
           Hire Me
         </h1>
