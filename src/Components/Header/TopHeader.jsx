@@ -38,11 +38,15 @@ const TopHeader = () => {
               </div>
             </div>
             <div>
-              <div className="flex gap-12 items-center">
-                <div className="flex gap-6 text-[20px] text-gray-700 items-start">
+              <div className="flex gap-3 text-[20px] text-gray-700 items-start">
+                <div className="my-1 w-10 h-10 rounded-full bg-[#023e8a] text-white flex items-center justify-center">
                   <SlSocialLinkedin />
-                  <FaInstagram className="transform translate-y-[2px]" />
-                  <RiTwitterXLine className="transform translate-y-[2px]" />
+                </div>
+                <div className="my-1 w-10 h-10 rounded-full bg-[#023e8a] text-white flex items-center justify-center">
+                  <FaInstagram />
+                </div>
+                <div className="my-1 w-10 h-10 rounded-full bg-[#023e8a] text-white flex items-center justify-center">
+                  <RiTwitterXLine />
                 </div>
               </div>
             </div>
