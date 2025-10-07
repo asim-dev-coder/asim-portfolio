@@ -31,7 +31,7 @@ const Skills = ({ selectedCategory }) => {
                 <div class="absolute -inset-1 rounded-lg bg-gradient-to-r from-[#023e8a] via-[#48cae4] to-[#caf0f8] opacity-15 lg:opacity-75 blur"></div>
                 <div class="h-[8em] w-[216px] bg-white m-auto rounded-[1em] overflow-hidden relative group p-2 z-0">
                   <div class="circle absolute h-[5em] w-[5em] -bottom-[2.5em] -right-[2.5em] rounded-full bg-teal-400 group-hover:scale-[800%] duration-500 z-[-1] op"></div>
-                  <h1 class="z-20 font-semibold font-Poppin group-hover:text-white duration-500 text-[28px]">
+                  <h1 class="z-20 font-semibold font-Poppin group-hover:text-white duration-500 text-[25px]">
                     {product.skill}
                   </h1>
                   <img
