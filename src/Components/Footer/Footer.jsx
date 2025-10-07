@@ -53,7 +53,7 @@ const Footer = () => {
                 <p className="text-[15px]">asimankon@gmail.com</p>
               </div>
             </div>
-            <h1 className="text-base text-black py-3 text-center">
+            <h1 className="text-[15px] text-black py-3 text-center">
               {" "}
               © 2025 All Rights Reserved by{" "}
               <span className="text-[#023e8a]">Assim</span>

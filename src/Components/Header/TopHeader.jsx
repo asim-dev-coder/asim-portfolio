@@ -11,8 +11,8 @@ const TopHeader = () => {
         {`
                 h3{ color: red;}
                 `}
-      </style> */}
-      <div className="bg-linear-to-r from-[#023e8a] via-[#48cae4] to-[#caf0f8] work">
+      </style> */} {/*via-[#48cae4]*/}
+      <div className="bg-linear-to-r from-[#023e8a]  to-[#caf0f8] work">
         <div className="w-9/12 mx-auto ">
           <div className=" flex items-center justify-between text-white">
             <div className="flex items-center gap-5 py-2 ">
