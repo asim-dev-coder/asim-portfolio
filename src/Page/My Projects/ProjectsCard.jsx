@@ -66,7 +66,7 @@ const ProjectsCard = ({ selectedCategory, increment, handleCartProduct }) => {
                 rel="noopener noreferrer"
               >
                 <button
-                  className="text-[15px] lg:text-lg w-full btn rounded-xl text-white hover:text-[#48cae4] bg-[#023e8a] hover:bg-white"
+                  className="text-[25px] lg:text-lg w-full btn rounded-xl text-white hover:text-[#48cae4] bg-[#023e8a] hover:bg-white"
                   onClick={() => {
                     increment();
                     handleCartProduct(product);
