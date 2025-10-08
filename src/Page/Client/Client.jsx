@@ -63,10 +63,10 @@ const Client = () => {
   const carouselSettings = {
     dots: false,
     infinite: true,
-    speed: 800,
+    speed: 1300,
     autoplay: true,
-    autoplaySpeed: 5400,
-    slidesToShow: 1, // show 2 items at a time
+    autoplaySpeed: 5200,
+    slidesToShow: 1, // show 1 items at a time
     slidesToScroll: 1, // scroll 1 at a time
     arrows: false,
   };
@@ -81,7 +81,7 @@ const Client = () => {
         </h1>
         <div className="max-w-5xl mx-auto px-4 py-4 sm:px-6 lg:px-8 ">
           <div className="relative bg-white rounded-xl shadow-xl overflow-hidden border border-gray-100">
-            <div className="relative h-[370px] md:h-[330px] p-3">
+            <div className="relative h-[390px] md:h-[330px] p-3">
               {/* Mobile carousel */}
               <Slider {...carouselSettings}>
                 {testimonials.map((item, index) => (
