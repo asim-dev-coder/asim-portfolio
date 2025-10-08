@@ -19,39 +19,60 @@ const ProjectsCard = ({ selectedCategory, increment, handleCartProduct }) => {
       : products;
 
   return (
-    <div className='lg:w-9/12 w-11/12 mx-auto py-8'>
-      <h1 className='text-4xl text-center font-bold my-3 text-[#023e8a]'>My Projects
+    <div className="lg:w-9/12 w-11/12 mx-auto py-8">
+      <h1 className="text-4xl text-center font-bold my-3 text-[#023e8a]">
+        My Projects
       </h1>
-      <h1 className='text-[22px] lg:text-2xl text-center font-medium my-5 text-[#023e8a]'>Here is some of my recent projects
+      <h1 className="text-[22px] lg:text-2xl text-center font-medium my-5 text-[#023e8a]">
+        Here is some of my recent projects
       </h1>
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
         {filteredProducts.map((product) => (
-          <div key={product.id} className="rounded-2xl shadow-lg border border-white hover:border-teal-300 hover:border-1">
+          <div
+            key={product.id}
+            className="rounded-2xl shadow-lg border border-white hover:border-teal-300 hover:border-1"
+          >
             <div className="w-full h-[274px] rounded-t-2xl overflow-hidden">
-              <img className="object-cover w-full h-full duration-1000 ease-in-out hover:scale-110" src={product.image} alt={product.title} />
+              <img
+                className="object-cover w-full h-full duration-1000 ease-in-out hover:scale-110"
+                src={product.image}
+                alt={product.title}
+              />
             </div>
             <div className="p-2">
               <div className="flex items-center justify-between">
-                <h1 className="text-xl font-bold text-[#023e8a]">{product.title}</h1>
+                <h1 className="text-xl font-bold text-[#023e8a]">
+                  {product.title}
+                </h1>
                 <FaRegHeart size={22} className="text-[#023e8a]" />
               </div>
               <div className="flex items-center justify-between my-3">
-                <p className="text-[#023e8a] text-[12px] lg:text-[18px]">{product.seat}</p>
+                <p className="text-[#023e8a] text-[12px] lg:text-[18px]">
+                  {product.seat}
+                </p>
                 <div className="flex items-center gap-3">
-                <FaReact className="text-[#46bddb]" size={18}  lg:size={22} />
-                <RiTailwindCssFill className="text-[#5fcde9]" size={18}  lg:size={22} />
-                <FaHtml5 className="text-orange-500" size={18} lg:size={22} />
+                  <FaReact className="text-[#46bddb]" size={18} lg:size={22} />
+                  <RiTailwindCssFill
+                    className="text-[#5fcde9]"
+                    size={18}
+                    lg:size={22}
+                  />
+                  <FaHtml5 className="text-orange-500" size={18} lg:size={22} />
                 </div>
               </div>
-              <a href={product.liveLink} target="_blank" rel="noopener noreferrer">
+              <a
+                href={product.liveLink}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <button
+                  className="text-lg w-full btn rounded-xl text-white hover:text-[#48cae4] bg-[#023e8a] hover:bg-white"
                   onClick={() => {
                     increment();
                     handleCartProduct(product);
                   }}
-                  className="text-lg w-full btn rounded-xl text-white hover:text-[#48cae4] bg-[#023e8a] hover:bg-white"
                 >
-                  Live Preview
+                  👉 Live Preview
                 </button>
               </a>
             </div>

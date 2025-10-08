@@ -84,7 +84,7 @@ const Client = () => {
             <div className="relative h-[390px] md:h-[330px] p-3">
               {/* Mobile carousel */}
               <Slider {...carouselSettings}>
-                {testimonials.map((item, index) => (
+                {testimonials.map((item) => (
                   <>
                     <div className="flex justify-center">
                       <img
