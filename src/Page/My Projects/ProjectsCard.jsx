@@ -36,13 +36,13 @@ const ProjectsCard = ({ selectedCategory, increment, handleCartProduct }) => {
               <img
                 className="object-cover w-full h-full duration-1000 ease-in-out hover:scale-110"
                 src={product.image}
-                alt={product.title}
+                alt={product.alttext} loading="lazy"
               />
             </div>
             <div className="p-2">
               <div className="flex items-center justify-between">
                 <h1 className="text-xl font-bold text-[#023e8a]">
-                  {product.title}
+                  {product.category}
                 </h1>
                 <FaRegHeart size={22} className="text-[#023e8a]" />
               </div>

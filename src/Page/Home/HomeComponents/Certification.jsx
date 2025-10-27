@@ -12,7 +12,7 @@ const Certification = () => {
           <img
             class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
             src="https://upload.wikimedia.org/wikipedia/en/3/37/National_Skills_Development_Authority_logo.png"
-            alt=""
+            alt="NATIONAL SKILLS DEVELOPMENT AUTHORITY Logo"
           />
           <h5 class="mb-4 lg:mb-0 text-2xl font-bold tracking-tight text-[#023e8a] dark:text-white">
             Web Design and Development for Freelancing, Level- 3

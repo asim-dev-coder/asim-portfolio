@@ -37,7 +37,7 @@ const Skills = ({ selectedCategory }) => {
                   <img
                     className="w-[67px] group-hover:text-white text-sky-400 mt-2"
                     src={product.image}
-                    alt={product.title}
+                    alt={product.alttext} loading="lazy"
                   />
                 </div>
               </div>

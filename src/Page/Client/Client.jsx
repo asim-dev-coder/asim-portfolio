@@ -90,7 +90,7 @@ const Client = () => {
                       <img
                         src={item.avatar}
                         alt={item.name}
-                        className="w-16 h-16 rounded-full object-cover mb-4 border-2 border-[#023e8a]"
+                        className="w-16 h-16 rounded-full object-cover mb-4 border-2 border-[#023e8a]" loading="lazy"
                       />
                     </div>
                     <div className="text-center">
