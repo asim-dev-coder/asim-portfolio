@@ -57,7 +57,7 @@ const Hero = () => {
             <img
               className="relative w-[300px] rounded-xl"
               src="https://media.licdn.com/dms/image/v2/D5603AQGiS4Yfc1Z_9Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1688451641788?e=2147483647&v=beta&t=0QfPsb6zmIYJdwRWJsXsphBmTUIvXk7Eq6oBRQvY_tY"
-              alt="Assim"
+              alt="best react js developer in dhaka"
             />
           </div>
           {/* Left Section */}
