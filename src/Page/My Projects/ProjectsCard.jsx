@@ -36,7 +36,8 @@ const ProjectsCard = ({ selectedCategory, increment, handleCartProduct }) => {
               <img
                 className="object-cover w-full h-full duration-1000 ease-in-out hover:scale-110"
                 src={product.image}
-                alt={product.alttext} loading="lazy"
+                alt={product.alttext}
+                loading="lazy"
               />
             </div>
             <div className="p-2">
@@ -46,11 +47,14 @@ const ProjectsCard = ({ selectedCategory, increment, handleCartProduct }) => {
                 </h1>
                 <FaRegHeart size={22} className="text-[#023e8a]" />
               </div>
-              <div className="flex items-center justify-between my-3">
-                <p className="text-[#023e8a] text-[12px] lg:text-[18px]">
-                  {product.seat}
-                </p>
-                <div className="flex items-center gap-3">
+              <div className="flex items-center gap-5 lg:gap-3 my-3">
+                <p className="text-[#023e8a] text-[18px] lg:text-[16px]">{product.seat}</p>
+                <div className="flex items-center gap-7 lg:gap-3">
+                  <FaReact className="text-[#46bddb] text-[22px]" />
+                  <RiTailwindCssFill className="text-[#5fcde9] text-[22px]" />
+                  <FaHtml5 className="text-orange-500 text-[22px]" />
+                </div>
+                {/* <div className="flex items-center">
                   <FaReact className="text-[#46bddb]" size={18} lg:size={22} />
                   <RiTailwindCssFill
                     className="text-[#5fcde9]"
@@ -58,7 +62,7 @@ const ProjectsCard = ({ selectedCategory, increment, handleCartProduct }) => {
                     lg:size={22}
                   />
                   <FaHtml5 className="text-orange-500" size={18} lg:size={22} />
-                </div>
+                </div>*/}
               </div>
               <a
                 href={product.liveLink}
@@ -66,7 +70,7 @@ const ProjectsCard = ({ selectedCategory, increment, handleCartProduct }) => {
                 rel="noopener noreferrer"
               >
                 <button
-                  className="text-[16px] lg:text-lg w-full btn rounded-xl text-white hover:text-[#48cae4] bg-[#023e8a] hover:bg-white"
+                  className="text-lg w-full btn rounded-xl text-white hover:text-[#48cae4] bg-[#023e8a] hover:bg-white"
                   onClick={() => {
                     increment();
                     handleCartProduct(product);
