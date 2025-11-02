@@ -26,7 +26,7 @@ const ProjectsCard = ({ selectedCategory, increment, handleCartProduct }) => {
       <h1 className="text-[22px] lg:text-2xl text-center font-medium my-5 text-[#023e8a]">
         Here is some of my recent projects
       </h1>
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
         {filteredProducts.map((product) => (
           <div
             key={product.id}
