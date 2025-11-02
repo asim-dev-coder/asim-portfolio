@@ -10,7 +10,7 @@ const Certification = () => {
         </h1>
         <div class="p-2 flex flex-col items-center lg:flex-row justify-between dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
           <img
-            class="object-cover w-full rounded-t-lg lg:h-96 md:h-auto md:rounded-none md:rounded-s-lg"
+            class="object-cover w-full rounded-t-lg lg:w-[188px] lg:h-[190px] md:h-auto md:rounded-none md:rounded-s-lg"
             src="https://upload.wikimedia.org/wikipedia/en/3/37/National_Skills_Development_Authority_logo.png"
             alt="NATIONAL SKILLS DEVELOPMENT AUTHORITY Logo"
           />

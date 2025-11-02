@@ -8,7 +8,7 @@ import { IoMailOutline } from "react-icons/io5";
 const Footer = () => {
   return (
     <div className="bg-sky-50">
-      <div className="w-9/12 mx-auto">
+      <div className="w-11/12 lg:w-9/12 mx-auto">
         <div className="block xl:hidden lg:hidden py-2">
           <div className="flex justify-between text-[20px] text-gray-700">
             <SlSocialLinkedin />
@@ -18,15 +18,15 @@ const Footer = () => {
           <div className="flex items-center justify-between py-2">
             <div className="flex gap-1 items-center  pr-4">
               <IoMdCall className="text-[20px] " />
-              <p className="text-[15px]">+8801556440078</p>
+              <p className="text-[14px] lg:text-[15px]">+8801556440078</p>
             </div>
             <div className="flex gap-2 text-[20px] items-center">
               <IoMailOutline className="text-xl" />
-              <p className="text-[15px]">asimankon@gmail.com</p>
+              <p className="text-[14px] lg:text-[15px]">asimankon@gmail.com</p>
             </div>
           </div>
           <div className="flex items-center justify-between">
-            <h1 className="text-base text-black text-center">
+            <h1 className="text-[14px] lg:text-base text-black text-center">
               {" "}
               © 2025 All Rights Reserved by{" "}
               <span className="text-[#023e8a]">Assim</span>
