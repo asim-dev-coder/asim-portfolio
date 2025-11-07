@@ -85,7 +85,7 @@ const Hero = () => {
                 My Skills
               </div>
             </div>
-            <div className="flex flex-wrap gap-2 overflow-hidden mt-4 font-poppins">
+            <div className="flex flex-wrap gap-2 overflow-hidden mt-4 font-poppins mb-2 lg:mb-0">
               <div className="text-green-700 text-md font-medium bg-green-100 px-3 py-1 rounded-lg w-fit work">
                 Digital Marketing
               </div>
