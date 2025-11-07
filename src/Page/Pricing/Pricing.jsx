@@ -14,7 +14,7 @@ const Pricing = () => {
                 regular
               </p>
               <h1 class="flex justify-center gap-1 mt-4 font-bold text-[#023e8a] text-6xl">
-                <span class="text-3xl">$</span>549
+                <span class="text-3xl">$</span>42
                 <span class="self-end text-3xl">/dy</span>
               </h1>
             </div>
@@ -134,7 +134,7 @@ const Pricing = () => {
                 standard
               </p>
               <h1 class="flex justify-center gap-1 mt-4 font-bold text-[#023e8a] text-6xl">
-                <span class="text-3xl">$</span>7489
+                <span class="text-3xl">$</span>192
                 <span class="self-end text-3xl">/mo</span>
               </h1>
             </div>
@@ -252,7 +252,7 @@ const Pricing = () => {
             <div class="pb-8 m-0 mb-8 text-center text-slate-800 border-b border-slate-200">
               <p class="text-sm uppercase font-semibold text-slate-500">pro</p>
               <h1 class="flex justify-center gap-1 mt-4 font-bold text-[#023e8a] text-6xl">
-                <span class="text-3xl">$</span>86999
+                <span class="text-3xl">$</span>322
                 <span class="self-end text-3xl">/yr</span>
               </h1>
             </div>

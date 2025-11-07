@@ -51,18 +51,17 @@ const Hero = () => {
                 `}
       </style>
       <div className="mx-auto w-11/12 lg:w-9/12 xl:w-9/12">
-        <div className="flex flex-col lg:flex-row-reverse justify-between items-center">
-          <div class="relative mb-5 lg:none">
-            <div class="absolute -inset-1 rounded-lg bg-gradient-to-l from-[#023e8a] via-[#48cae4] to-[#caf0f8] opacity-75 blur"></div>
-            <img
-              className="relative w-[300px] rounded-xl"
-              src="https://media.licdn.com/dms/image/v2/D5603AQGiS4Yfc1Z_9Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1688451641788?e=2147483647&v=beta&t=0QfPsb6zmIYJdwRWJsXsphBmTUIvXk7Eq6oBRQvY_tY"
-              alt="best react js developer in dhaka"
-            />
-          </div>
+        <div className="flex flex-col lg:flex-row justify-between items-center">
           {/* Left Section */}
           <div className="text-center lg:text-left font-poppins">
-            <p className="mb-2 text-2xl text-[#023e8a] work">
+            <p className="text-[19px] text-[#023e8a] work">
+              Looking for a reliable Digital Marketer to boost your product
+              sales?
+            </p>
+            <p className="mb-2 text-[19px] text-[#023e8a] work">
+              You don’t have to worry anymore — I’m here to help you.
+            </p>
+            <p className="mb-2 text-[25px] text-[#023e8a] work font-bold">
               Welcome To My World!
             </p>
             <h1 className="text-4xl md:text-6xl font-roboto font-semibold">
@@ -86,6 +85,28 @@ const Hero = () => {
                 My Skills
               </div>
             </div>
+            <div className="flex flex-wrap gap-2 overflow-hidden mt-4 font-poppins">
+              <div className="text-green-700 text-md font-medium bg-green-100 px-3 py-1 rounded-lg w-fit work">
+                Digital Marketing
+              </div>
+              <div className="text-purple-700 text-md font-medium bg-purple-100 px-3 py-1 rounded-lg w-fit work">
+                frontend development
+              </div>
+              <div className="text-pink-700 text-md font-medium bg-pink-100 px-3 py-1 rounded-lg w-fit work">
+                React js developer
+              </div>
+              <div className="text-sky-700 text-md font-medium bg-sky-100 px-3 py-1 rounded-lg w-fit work">
+                web development
+              </div>
+            </div>
+          </div>
+          <div class="relative mb-5 lg:none">
+            <div class="absolute -inset-1 rounded-lg bg-gradient-to-l from-[#023e8a] via-[#48cae4] to-[#caf0f8] opacity-75 blur"></div>
+            <img
+              className="relative w-[300px] rounded-xl"
+              src="https://media.licdn.com/dms/image/v2/D5603AQGiS4Yfc1Z_9Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1688451641788?e=2147483647&v=beta&t=0QfPsb6zmIYJdwRWJsXsphBmTUIvXk7Eq6oBRQvY_tY"
+              alt="best react js developer in dhaka"
+            />
           </div>
         </div>
       </div>
