@@ -32,9 +32,11 @@ const Navbar = () => {
               </button>
             </div>
             {/* Logo */}
-            <div className="text-2xl font-semibold bg-gradient-to-r from-[#023e8a] to-[#48cae4] text-transparent bg-clip-text">
-              Assim
-            </div>
+            <Link to="/">
+              <div className="text-2xl font-semibold bg-gradient-to-r from-[#023e8a] to-[#48cae4] text-transparent bg-clip-text">
+                Assim
+              </div>
+            </Link>
           </div>
 
           {/* Nav links (lg and up only) */}
@@ -72,7 +74,7 @@ const Navbar = () => {
 
         {/* Mobile Menu (only shown when hamburger is clicked) */}
         {menuOpen && (
-          <div className="md:hidden flex flex-col items-start gap-4 mt-4 font-poppins">
+          <div className="md:hidden flex flex-col  gap-3 font-poppins">
             {navItems.map(({ to, label }) => (
               <NavLink
                 key={to}
