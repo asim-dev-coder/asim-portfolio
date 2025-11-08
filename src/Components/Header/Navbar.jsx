@@ -23,7 +23,7 @@ const Navbar = () => {
           {/* Left (Logo + Hamburger for sm) */}
           <div className="flex items-center gap-4">
             {/* Hamburger icon (sm only) */}
-            <div className="md:hidden">
+            <div className="lg:hidden">
               <button
                 onClick={() => setMenuOpen(!menuOpen)}
                 aria-label="Toggle Menu"
