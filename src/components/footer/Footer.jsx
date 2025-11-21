@@ -41,7 +41,7 @@ function Footer() {
                             <AiOutlineInstagram size={25} className='text-[#ee4023] hover:text-sky-500 cursor-pointer' />
                             <IoLogoYoutube size={25} className='text-[#ee4023] hover:text-sky-500 cursor-pointer' />
                         </div></div>
-                    <img className='w-[180px]' src="https://w7.pngwing.com/pngs/650/450/png-transparent-prothom-alo-%E0%A6%96%E0%A7%87%E0%A6%B2%E0%A6%BE-dhaka-bengali-sport-others-text-sport-logo.png" alt="" /> 
+                    <img className='w-[180px]' src="" alt="" /> 
                     {/* {Logo} */}
                     <div><h1 className='text-base text-gray-600'>যোগাযোগ করুন
                     </h1>
@@ -49,14 +49,14 @@ function Footer() {
                     <div className='text-base my-3'>
                         <h2>ঠিকানা: ২৫ কারওয়ান বাজার, ঢাকা
                         </h2>
-                        <h2 className='font-semibold hover:text-green-500'>prothomalo.com</h2>
+                        <h2 className='font-semibold hover:text-green-500'>asimankon@gmail.com</h2>
                     </div>
                 </div>
             </div>
             <hr className='w-11/12 mx-auto text-gray-200 text-2xl mt-5' />
             <div className='w-11/12 mx-auto mt-3'>
                 <div className='flex items-center gap-3 justify-center text-sm text-gray-600'>
-                    <h1 className='hover:text-sky-500'>প্রথম আলো</h1>
+                    <h1 className='hover:text-sky-500'></h1>
                     <GoDotFill className='text-gray-400' />
                     <h1 className='hover:text-sky-500'>বিজ্ঞাপন</h1>
                     <GoDotFill className='text-gray-400' />
@@ -72,7 +72,7 @@ function Footer() {
                 </div>
                 <hr className='w-11/12 mx-auto text-gray-200 text-2xl mt-3' />
                 <div>
-                    <h1 className='text-xs text-gray-500 mt-3 text-center'>স্বত্ব © ১৯৯৮ - ২০২৫ প্রথম আলো<span className='text-black'> | </span>সম্পাদক ও প্রকাশক: মতিউর রহমান<span className='text-black'> | </span>Made by <span className='text-green-500'>Assim</span></h1>
+                    <h1 className='text-xs text-gray-500 mt-3 text-center'>স্বত্ব © ১৯৯৮ - ২০২৫<span className='text-black'> | </span>সম্পাদক ও প্রকাশক: মতিআর রহমান<span className='text-black'> | </span>Made by <span className='text-green-500'>Assim</span></h1>
                 </div>
             </div>
         </div>
