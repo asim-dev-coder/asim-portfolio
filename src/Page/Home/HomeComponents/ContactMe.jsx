@@ -2,11 +2,8 @@ import React from "react";
 
 const ContactMe = () => {
   return (
-<<<<<<< HEAD
     <>
-=======
     <div className="bg-gradient-to-l from-purple-50 to-sky-50">
->>>>>>> f2942c2959d9ba4a7028f128682967e8beb1d885
       <div className="w-9/12 mx-auto py-4">
         <h1 className="text-4xl text-center font-bold mb-5 text-[#023e8a]">
           Contact Me
@@ -65,11 +62,8 @@ const ContactMe = () => {
           </div>
         </div>
       </div>
-<<<<<<< HEAD
+      </div>
     </>
-=======
-    </div>
->>>>>>> f2942c2959d9ba4a7028f128682967e8beb1d885
   );
 };
 
