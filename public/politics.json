@@ -17,19 +17,11 @@
   {
     "id": 2,
     "category": "Art & Design",
-<<<<<<< HEAD
     "title": "৩ ফেব্রুয়ারী দিবাগত রাত্রে পালিত হবে পবিত্র শবে বরাত",
     "type": "Course",
     "lessons": 8,
     "correspondent": "নিজস্ব প্রতিনিধি",
     "dateplace": "১৭ - ১ - ২০২৬, ঢাকা",
-=======
-    "title": "সরকারি অফিসে ঈদের আমেজ, সহকর্মীদের সাথে চলছে ঈদ শুভেচ্ছা বিনিময়",
-    "type": "Course",
-    "lessons": 8,
-    "correspondent": "নিজস্ব প্রতিনিধি",
-    "dateplace": "৫ - ৪ - ২০২৫, ঢাকা",
->>>>>>> 51461ce6330ae5d4cfc6814c9f611c51a2d48a82
     "duration": "১ ঘন্টা আগে",
     "level": "৪ বার দেখেছে",
     "price": {
@@ -40,13 +32,8 @@
     "tags": [
       "Popular"
     ],
-<<<<<<< HEAD
     "image": "https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/2a6c/live/b2b837f0-d317-11ee-b83b-0f87a864f372.jpg.webp",
     "description": "আজ এক বার্তায় ধর্ম উপদেষ্টা এ কথা বলেন"
-=======
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqobLYRFJVD14RCMtdVY5fjH0rqSVNpvm83A&s",
-    "description": "ঈদের আনন্দ ভাগাভাগি করে নিলেন সহকর্মীদের সাথে"
->>>>>>> 51461ce6330ae5d4cfc6814c9f611c51a2d48a82
   },
   {
     "id": 3,

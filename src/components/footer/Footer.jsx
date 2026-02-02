@@ -72,7 +72,7 @@ function Footer() {
                 </div>
                 <hr className='w-11/12 mx-auto text-gray-200 text-2xl mt-3' />
                 <div>
-                    <h1 className='text-xs text-gray-500 mt-3 text-center'>স্বত্ব © ১৯৯৮ - ২০২৫<span className='text-black'> | </span>সম্পাদক ও প্রকাশক: মতিআর রহমান<span className='text-black'> | </span>Made by <span className='text-green-500'>Assim</span></h1>
+                    <h1 className='text-xs text-gray-500 mt-3 text-center'>স্বত্ব © ২০২৫ - ২০২৬<span className='text-black'> | </span>সম্পাদক ও প্রকাশক: <span className='text-black'> | </span>Made by <span className='text-green-500'>Assim</span></h1>
                 </div>
             </div>
         </div>
