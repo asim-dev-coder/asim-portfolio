@@ -1,71 +1,82 @@
-import React from "react";
-import { FaInstagram } from "react-icons/fa";
-import { RiTwitterXLine } from "react-icons/ri";
-import { SlSocialLinkedin } from "react-icons/sl";
-import { IoMdCall } from "react-icons/io";
-import { IoMailOutline } from "react-icons/io5";
+import React from 'react'
+import Logo from '../../assets/image/hero image/logo.png'
+import { FaXTwitter } from "react-icons/fa6";
+import { FaFacebookF } from "react-icons/fa";
+import { AiOutlineInstagram } from "react-icons/ai";
+import { IoLogoYoutube } from "react-icons/io5";
+import { GoDotFill } from "react-icons/go";
+import { BiLogoPlayStore } from "react-icons/bi";
+import { FaApple } from "react-icons/fa";
 
-const Footer = () => {
-  return (
-    <div className="bg-sky-50">
-      <div className="w-11/12 lg:w-9/12 mx-auto">
-        <div className="block xl:hidden lg:hidden py-2">
-          <div className="flex justify-between text-[20px] text-gray-700">
-            <SlSocialLinkedin />
-            <FaInstagram className="transform translate-y-[2px]" />
-            <RiTwitterXLine className="transform translate-y-[2px]" />
-          </div>
-          <div className="flex items-center justify-between py-2">
-            <div className="flex gap-1 items-center  pr-4">
-              <IoMdCall className="text-[20px] " />
-              <p className="text-[14px] lg:text-[15px]">+8801556440078</p>
-            </div>
-            <div className="flex gap-2 text-[20px] items-center">
-              <IoMailOutline className="text-xl" />
-              <p className="text-[14px] lg:text-[15px]">asimankon@gmail.com</p>
-            </div>
-          </div>
-          <div className="flex items-center justify-between">
-            <h1 className="text-[14px] lg:text-base text-black text-center">
-              {" "}
-              © 2025 All Rights Reserved by{" "}
-              <span className="text-[#023e8a]">Assim</span>
-            </h1>
-            <div className="text-2xl font-semibold bg-gradient-to-r from-[#023e8a] to-[#48cae4] text-transparent bg-clip-text">
-              Assim
-            </div>
-          </div>
-        </div>
-        <div className="hidden xl:block lg:block">
-          <div className="flex items-center justify-between">
-            <div className="flex gap-6 text-[20px] text-gray-700 items-start">
-              <SlSocialLinkedin />
-              <FaInstagram className="transform translate-y-[2px]" />
-              <RiTwitterXLine className="transform translate-y-[2px]" />
-            </div>
-            <div className="flex items-center gap-5 py-2 ">
-              <div className="flex gap-1 items-center  pr-4 ">
-                <IoMdCall className="text-[20px] " />
-                <p className="text-[15px]">+8801556440078</p>
-              </div>
-              <div className="flex gap-2  text-[20px] items-center">
-                <IoMailOutline className="text-xl" />
-                <p className="text-[15px]">asimankon@gmail.com</p>
-              </div>
-            </div>
-            <h1 className="text-[15px] text-black py-3 text-center">
-              {" "}
-              © 2025 All Rights Reserved by{" "}
-              <span className="text-[#023e8a]">Assim</span>
-            </h1>
-            <div className="text-2xl font-semibold bg-gradient-to-r from-[#023e8a] to-[#48cae4] text-transparent bg-clip-text">
-              Assim
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-};
 
-export default Footer;
+function Footer() {
+    return (
+        <div className='py-3 bg-[#f9f9fb]'>
+            <div className='w-11/12 mx-auto'>
+                <div className='flex items-center justify-between'>
+                    <div>
+                        <p class="font-[500] text-base text-black">মোবাইল অ্যাপস ডাউনলোড করুন</p>
+                        <div class="flex gap-[8px]">
+                            <div class="rounded-xl flex items-center gap-[6px] w-[136px] h-14 bg-gray-200 hover:bg-red-200 mt-2 py-2 pl-3">
+                            <FaApple className='text-lg' />
+                                <div>
+                                    <p class="font-[400] text-[11px] text-gray-700">Download on the</p>
+                                    <p class="font-[500] text-sm text-gray-900">App Store</p>
+                                </div>
+                            </div>
+                            <div class="rounded-xl flex items-center gap-[6px] w-[136px] h-14 bg-gray-200 hover:bg-red-200 mt-2 py-2 pl-3">
+                            <BiLogoPlayStore className='text-lg' />
+                                <div>
+                                    <p class="font-[400] text-[11px] text-gray-700">Download on the</p>
+                                    <p class="font-[500] text-sm text-gray-900">Google play</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div><p className='mb-2'>অনুসরণ করুন
+                    </p>
+                        <div className='flex items-center gap-4'>
+                            <FaXTwitter size={22} className='text-[#ee4023] hover:text-black cursor-pointer' />
+                            <FaFacebookF size={22} className='text-[#ee4023] hover:text-sky-500 cursor-pointer' />
+                            <AiOutlineInstagram size={25} className='text-[#ee4023] hover:text-sky-500 cursor-pointer' />
+                            <IoLogoYoutube size={25} className='text-[#ee4023] hover:text-sky-500 cursor-pointer' />
+                        </div></div>
+                    <img className='w-[180px]' src="" alt="" /> 
+                    {/* {Logo} */}
+                    <div><h1 className='text-base text-gray-600'>যোগাযোগ করুন
+                    </h1>
+                        <h2 className='text-base text-[#ee4023] font-semibold'>+88 01556 440078</h2></div>
+                    <div className='text-base my-3'>
+                        <h2>ঠিকানা: ২৫ কারওয়ান বাজার, ঢাকা
+                        </h2>
+                        <h2 className='font-semibold hover:text-green-500'>asimankon@gmail.com</h2>
+                    </div>
+                </div>
+            </div>
+            <hr className='w-11/12 mx-auto text-gray-200 text-2xl mt-5' />
+            <div className='w-11/12 mx-auto mt-3'>
+                <div className='flex items-center gap-3 justify-center text-sm text-gray-600'>
+                    <h1 className='hover:text-sky-500'></h1>
+                    <GoDotFill className='text-gray-400' />
+                    <h1 className='hover:text-sky-500'>বিজ্ঞাপন</h1>
+                    <GoDotFill className='text-gray-400' />
+                    <h1 className='hover:text-sky-500'>সার্কুলেশন</h1>
+                    <GoDotFill className='text-gray-400' />
+                    <h1 className='hover:text-sky-500'>শর্তাবলি ও নীতিমালা</h1>
+                    <GoDotFill className='text-gray-400' />
+                    <h1 className='hover:text-sky-500'>গোপনীয়তা নীতি</h1>
+                    <GoDotFill className='text-gray-400' />
+                    <h1 className='hover:text-sky-500'>যোগাযোগ</h1>
+                    <GoDotFill className='text-gray-400' />
+                    <h1 className='hover:text-sky-500'>নিউজলেটার</h1>
+                </div>
+                <hr className='w-11/12 mx-auto text-gray-200 text-2xl mt-3' />
+                <div>
+                    <h1 className='text-xs text-gray-500 mt-3 text-center'>স্বত্ব © ২০২৫ - ২০২৬<span className='text-black'> | </span>সম্পাদক ও প্রকাশক: <span className='text-black'> | </span>Made by <span className='text-green-500'>Assim</span></h1>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default Footer

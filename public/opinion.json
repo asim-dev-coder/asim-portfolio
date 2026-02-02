@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "category": "Art & Design",
+    "title": "নিউমুরিং টার্মিনাল ইজারা দেয়ার প্রস্তাবে ধর্মঘটের ডাক",
+    "correspondent": "বাসস",
+    "dateplace": "১-২-২০২৬, চট্টগ্রাম",
+    "duration": "৪ ঘন্টা আগে",
+    "type": "Course",
+    "level": "৪ বার দেখেছে",
+    "tags": [
+      "Featured"
+    ],
+    "image": "https://www.banglaoutlook.org/uploads/2026/01/online/photos/ctg_port_newmooring_container_terminal_3-697da29b7be6c.jpg",
+    "description": "বিক্ষোভে অচল বন্দরের কার্যক্রম"
+  },
+  {
+    "id": 2,
+    "category": "Art & Design",
+    "title": "জামায়াতের আমিরের এক্স অ্যকাউন্ট হ্যাক",
+    "type": "Course",
+    "lessons": 8,
+    "correspondent": "নিজস্ব প্রতিনিধি",
+    "dateplace": "১-২-২০২৬, ঢাকা",
+    "duration": "৫ ঘন্টা আগে",
+    "level": "৪ বার দেখেছে",
+    "price": {
+      "current": 19.99,
+      "original": 29.99,
+      "discount": "-33%"
+    },
+    "tags": [
+      "Popular"
+    ],
+    "image": "https://i.ytimg.com/vi/AekXt1-knsA/maxresdefault.jpg",
+    "description": "দলটির পক্ষ থেকে এ দাবি করা হয়"
+  },
+  {
+    "id": 3,
+    "category": "Art & Design",
+    "title": "টঙ্গী থেকে নিষিদ্ধ জঙ্গী সংগঠনের ২ কর্মী গ্রেফতার",
+    "correspondent": "জেলা প্রতিনিধি",
+    "dateplace": "৫ - ৪ - ২০২৫, গাজীপুর",
+    "duration": "৭ ঘন্টা আগে",
+    "type": "Course",
+    "level": "৪ বার দেখেছে",
+    "tags": [
+      "Featured"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGnsM1XlpGaoFJHU-P637ogLFYQNLUs6j7dQ&s",
+    "description": "আজ এক প্রেস ব্রিফিং এ টঙ্গী থানার ইন্সপেক্টর এ কথা বলেন"
+  }
+]
